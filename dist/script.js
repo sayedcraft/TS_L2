@@ -9,6 +9,6 @@ let myUndefined = undefined;
 let myNull = null;
 let myAny = "This can be any type";
 const addTwoNumbers = (a, b) => {
-  return a + b;
+    return a + b;
 };
-console.log(addTwoNumbers(7777, 20000));
+console.log(addTwoNumbers(7777, 0));

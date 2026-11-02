@@ -1,5 +1,6 @@
 import "./external.js";
 import "./union.js";
+import "./type-alias-and-interface.js";
 let myString = "Hello, World!";
 let myNumber = 42;
 let myBoolean = true;
@@ -86,4 +87,3 @@ const user4 = {
         country: "USA"
     }
 };
-// From external.ts

@@ -1,5 +1,6 @@
 import "./external.js";
 import "./union.js";
+import "./type-alias-and-interface.js"
 
 let myString: string = "Hello, World!";
 let myNumber: number = 42;
@@ -135,5 +136,4 @@ const user4: IUser = {
 };
 
 
-// From external.ts
  

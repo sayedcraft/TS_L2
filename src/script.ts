@@ -1,3 +1,6 @@
+import "./external.js";
+import "./union.js";
+
 let myString: string = "Hello, World!";
 let myNumber: number = 42;
 let myBoolean: boolean = true;
@@ -22,7 +25,7 @@ const addTwoNumbers = (a: number, b: number): number => {
     return a + b;
 }
 
-console.log(addTwoNumbers(7777, 0)); 
+// console.log(addTwoNumbers(7777, 0)); 
 
 // optional parameter
 const addThreeNumbers = (a: number, b: number, c?: number): number => {
@@ -31,15 +34,15 @@ const addThreeNumbers = (a: number, b: number, c?: number): number => {
     }
     return a + b;
 }
-console.log(addThreeNumbers(1, 2)); // Output: 3
-console.log(addThreeNumbers(1, 2, 3)); // Output: 6
+// console.log(addThreeNumbers(1, 2)); // Output: 3
+// console.log(addThreeNumbers(1, 2, 3)); // Output: 6
 
 // Default parameter
 const multiplyNumbers = (a: number, b: number = 2): number => {
     return a * b;
 }
-console.log(multiplyNumbers(5)); // Output: 10
-console.log(multiplyNumbers(5, 3)); // Output: 15
+// console.log(multiplyNumbers(5)); // Output: 10
+// console.log(multiplyNumbers(5, 3)); // Output: 15
 
 
 // Object Type
@@ -55,7 +58,7 @@ const user:{
     age: 30,
     isAdmin: true,
     action: () => {
-        console.log("User action performed");
+        // console.log("User action performed");
     },
     badge: ["badge1", "badge2"]
 };
@@ -81,7 +84,7 @@ const user2: User = {
     age: 25,
     isAdmin: false,
     action: () => {
-        console.log("User2 action performed");
+        // console.log("User2 action performed");
     },
     badge: ["badgeA", "badgeB"],
     address: {
@@ -96,7 +99,7 @@ const user3: User = {
     age: 28,
     isAdmin: true,
     action: () => {
-        console.log("User3 action performed"); 
+        // console.log("User3 action performed"); 
     },
     badge: ["badgeC", "badgeD"],
     address: {
@@ -121,7 +124,7 @@ const user4: IUser = {
     age: 35,
     isAdmin: false,
     action: () => {
-        console.log("User4 action performed");
+        // console.log("User4 action performed");
     },
     badge: ["badgeX", "badgeY"],
     address: {
@@ -132,3 +135,5 @@ const user4: IUser = {
 };
 
 
+// From external.ts
+ 

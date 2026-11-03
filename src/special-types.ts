@@ -16,3 +16,24 @@ let myBoolean: boolean = true;
 
 let myUndefined: undefined = undefined;
 let myNull: null = null;
+
+//! Unit type
+
+const msg=()=>{
+    console.log("Hello, World!");
+}
+msg();
+
+//! Sub-type of unit type
+
+const msg2=():undefined=>{
+    console.log("Hello, World!");
+}
+msg2();
+
+//! Bottom type
+
+const throwError = (): never => {
+    throw new Error("This function always throws an error");
+}
+throwError();

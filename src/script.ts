@@ -1,6 +1,8 @@
 import "./external.js";
 import "./union.js";
-import "./type-alias-and-interface.js"
+import "./type-alias-and-interface.js";
+import "./special-types.js";
+import "./narrowing.js";
 
 let myString: string = "Hello, World!";
 let myNumber: number = 42;

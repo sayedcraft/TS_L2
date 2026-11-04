@@ -3,6 +3,7 @@ import "./union.js";
 import "./type-alias-and-interface.js";
 import "./special-types.js";
 import "./narrowing.js";
+import "./generic.js";
 
 let myString: string = "Hello, World!";
 let myNumber: number = 42;

@@ -21,3 +21,24 @@ const print = (value: string | number): void => {
         // console.log("Number value:", value.toFixed(2));
     }   
 }
+
+
+//! "in" operator
+
+type bird = {
+    fly: () => void;
+}
+
+type fish = {
+    swim: () => void;
+}
+
+const move = (animal: bird | fish): void => {
+    if ("fly" in animal) {
+        // animal is narrowed to bird
+        // console.log("Bird is flying");
+    } else {
+        // animal is narrowed to fish
+        // console.log("Fish is swimming");
+    }
+}

@@ -4,6 +4,7 @@ import "./type-alias-and-interface.js";
 import "./special-types.js";
 import "./narrowing.js";
 import "./generic.js";
+import "./OOP/class-object.js"
 
 let myString: string = "Hello, World!";
 let myNumber: number = 42;

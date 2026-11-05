@@ -33,7 +33,7 @@ msg2();
 
 //! Bottom type
 
-const throwError = (): never => {
-    throw new Error("This function always throws an error");
-}
-throwError();
+// const throwError = (): never => {
+     // throw new Error("This function always throws an error");
+// }
+     // throwError();

@@ -1,6 +1,10 @@
 import "./external.js";
 import "./union.js";
 import "./type-alias-and-interface.js";
+import "./special-types.js";
+import "./narrowing.js";
+import "./generic.js";
+import "./OOP/class-object.js";
 let myString = "Hello, World!";
 let myNumber = 42;
 let myBoolean = true;

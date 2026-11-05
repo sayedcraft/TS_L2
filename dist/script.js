@@ -5,6 +5,7 @@ import "./special-types.js";
 import "./narrowing.js";
 import "./generic.js";
 import "./OOP/class-object.js";
+import "./OOP/Encapsulation.js";
 let myString = "Hello, World!";
 let myNumber = 42;
 let myBoolean = true;
